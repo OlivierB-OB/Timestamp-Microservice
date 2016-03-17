@@ -10,8 +10,8 @@ User stories:
 
 Example usage:
 
-*  https://<domain>/December%2015,%202015
-*  https://<domain>/1450137600
+*  [https://timestamp-microservice-olivierb-ob.c9users.io:8080/December%2015,%202015](https://timestamp-microservice-olivierb-ob.c9users.io:8080/December%2015,%202015)
+*  [https://timestamp-microservice-olivierb-ob.c9users.io:8080/1450137600](https://timestamp-microservice-olivierb-ob.c9users.io:8080/1450137600)
 
 Example output:
 
