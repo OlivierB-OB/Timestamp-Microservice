@@ -1,18 +1,17 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Timestamp Microservice
+===
 
+User stories:
 
-Hi there! Welcome to Cloud9 IDE!
+# I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</li>
+# If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+# If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+Example usage:
 
-Happy coding!
-The Cloud9 IDE team
+https://<domain>/December%2015,%202015
+https://<domain>/1450137600
+
+Example output:
+{ "unix": 1450137600, "natural": "December 15, 2015" }
